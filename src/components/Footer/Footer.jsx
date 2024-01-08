@@ -1,6 +1,7 @@
 import React from "react"
 import { footer } from "../data/Data"
 import "./Footer.css"
+import logo from "../../images/logo.jpg"
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='../images/logo-light.png' alt='' />
+              <img src={logo} alt='' />
               <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
+              <p>Receive updates, Events, News sent straignt in your inbox</p>
 
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
@@ -34,7 +35,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+        <span>© 2023 Multi Intervention Development Initiative. (MIDIN). All Rights Reserved.</span>
       </div>
     </>
   )

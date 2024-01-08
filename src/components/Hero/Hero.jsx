@@ -18,14 +18,15 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Achieving <br />
+              the Desired
+              <br /> Goals
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Welcome to Multi Intervention Development Initiative (MIDIN), where every action is a </span>
+            <span>step towards positive change. At MIDIN, we believe in the profound impact of collective </span>
+            <span>efforts in creating sustainable solutions for communities in need.</span>
           </div>
 
           <div className="flexCenter search-bar">

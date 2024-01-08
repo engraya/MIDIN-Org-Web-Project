@@ -27,27 +27,27 @@ export const nav = [
 export const featured = [
   {
     cover: "../images/hero/h1.png",
-    name: "Family House",
+    name: "Eduaction",
     total: "122 Property",
   },
   {
     cover: "../images/hero/h2.png",
-    name: "House & Villa",
+    name: "Health Care",
     total: "155 Property",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Apartment",
+    name: "Agriculture",
     total: "300 Property",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Office & Studio",
+    name: "Empowerment",
     total: "80 Property",
   },
   {
-    cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
+    cover: "../images/hero/h5.png",
+    name: "Livelihood",
     total: "80 Property",
   },
 ]
@@ -223,96 +223,18 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
-export const price = [
-  {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
-      },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
-    ],
-  },
-  {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
-  {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
-]
+
 export const footer = [
   {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    title: "",
+    text: [{ list: "Home" }, { list: "About" }, { list: "Our Work" }, { list: "Contact Us" }, { list: "Careers" },{ list: "What We Do" }],
   },
   {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+    title: "",
+    text: [{ list: "Our Mission" }, { list: "Our Vision" }, { list: "News & Updates" }, { list: "Events" }, { list: "Support" }, { list: "Projects" }],
   },
   {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+    title: "",
+    text: [{ list: "Stories" }, { list: "Gallery" }, { list: "Media" }, { list: "Partners" }, { list: "Connect" }, { list: "Get Involved" }],
   },
 ]

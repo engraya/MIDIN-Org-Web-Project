@@ -8,6 +8,13 @@ import logo from "../../images/logo.jpg"
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+
   // const headerColor = useHeaderColor();
 
   return (
@@ -27,14 +34,23 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#residencies">Residencies</a>
+            {/* <a href="#residencies">Residencies</a>
             <a href="#value">Our Value</a>
             <a href="#contact-us">Contact Us</a>
             <a href="#get-started">Get Started</a>
             <a href="#get-started">Get Started</a>
-            <a href="#get-started">Get Started</a>
+            <a href="#get-started">Get Started</a> */}
+
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Work</a>
+            <a href="#">Careers</a>
+            <a href="#">Projects</a>
+            <a href="#">What we do</a>
+
+
             <button className="button">
-              <a href="mailto:zainkeepscode@gmail.com">Contact</a>
+              <a href="#">Contact</a>
             </button>
           </div>
         </OutsideClickHandler>
