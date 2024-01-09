@@ -2,6 +2,7 @@ import React from "react"
 import { footer } from "../data/Data"
 import "./Footer.css"
 import logo from "../../images/logo.jpg"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
               <h3>{val.title}</h3>
               <ul>
                 {val.text.map((items) => (
-                  <li> <a href="#">{items.list} </a></li>
+                  <li><Link to={items.url}><a >{items.list} </a></Link></li>
                 ))}
               </ul>
             </div>
