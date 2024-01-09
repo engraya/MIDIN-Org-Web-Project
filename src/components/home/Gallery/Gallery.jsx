@@ -1,7 +1,7 @@
 import React from "react"
 import Heading from "../../common/Heading"
-import "./recent.css"
-import RecentCard from "./RecentCard"
+import "./Gallery.css"
+import GalleryCard from "./GalleryCard"
 
 const Recent = () => {
   return (
@@ -9,7 +9,7 @@ const Recent = () => {
       <section className='recent padding'>
         <div className='container'>
           <Heading title='Our Gallery' subtitle='Explore Beautiful Images of our Popular Events' />
-          <RecentCard />
+          <GalleryCard />
         </div>
       </section>
     </>

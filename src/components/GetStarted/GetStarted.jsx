@@ -1,5 +1,6 @@
 import React from "react";
 import "./GetStarted.css";
+
 const GetStarted = () => {
   return (
     <div id="get-started" className="g-wrapper">
@@ -13,6 +14,7 @@ const GetStarted = () => {
           <button className="button" href>
             <a href="mailto:midin@gmail.com">Get Started</a>
           </button>
+          
         </div>
       </div>
     </div>

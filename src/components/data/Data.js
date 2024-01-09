@@ -578,14 +578,14 @@ export const team = [
 export const footer = [
   {
     title: "",
-    text: [{ list: "Home" }, { list: "About" }, { list: "Our Work" }, { list: "Contact Us" }, { list: "Careers" },{ list: "What We Do" }],
+    text: [{ list: "Home" }, { list: "About" }, { list: "Our Work" }, { list: "Contact Us" },{ list: "What We Do" }],
   },
   {
     title: "",
-    text: [{ list: "Our Mission" }, { list: "Our Vision" }, { list: "News & Updates" }, { list: "Events" }, { list: "Support" }, { list: "Projects" }],
+    text: [{ list: "Our Mission" }, { list: "Our Vision" }, { list: "News & Updates" }, { list: "Events" }, { list: "Projects" }],
   },
   {
     title: "",
-    text: [{ list: "Stories" }, { list: "Gallery" }, { list: "Media" }, { list: "Partners" }, { list: "Connect" }, { list: "Get Involved" }],
+    text: [{ list: "Stories" }, { list: "Gallery" }, { list: "Media" }, { list: "Partners" }, { list: "Get Involved" }],
   },
 ]

@@ -2,7 +2,7 @@
   color: white;
   position: relative;
   z-index: 1;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
   background: #0d1c31;
 }
 
@@ -12,6 +12,11 @@
   align-items: flex-end; 
 }
 
+.stars{
+  display:flex;
+  margin-top:10px;
+  padding-top:10px;
+}
 
 /* left side */
 .hero-left {
@@ -22,9 +27,15 @@
   z-index: 1;
 }
 .hero-title > h1 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.8rem;
   line-height: 4rem;
+}
+
+.sub-write{
+  margin-top: 20px;
+  font-size: larger;
+  font-family: cursive;
 }
 .orange-circle {
   height: 4rem;
@@ -76,11 +87,16 @@
 /* mobile screens */
 @media  (max-width: 640px){
   .hero-container{
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .hero-title>h1{
     font-size: 2.5rem;
     line-height: 3rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 28px;
   }
   .image-container{
     width: 95%;

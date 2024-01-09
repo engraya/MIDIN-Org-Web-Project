@@ -35,7 +35,7 @@ const Value = () => {
         <div className="flexColStart v-right">
           <span className="orangeText">Our Value</span>
 
-          <span className="primaryText">Value We Provide to You</span>
+          <span className="primaryText">Value We Provide</span>
 
           <span className="secondaryText">
           Our mission embraces diversity and inclusivity, ensuring that every person, regardless of background, has an equal opportunity to thrive.

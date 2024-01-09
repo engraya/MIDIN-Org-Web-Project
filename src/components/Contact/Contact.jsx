@@ -4,8 +4,12 @@ import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
 import contactImage from "../../images/contact-image.jpg"
+import GetStarted from "../GetStarted/GetStarted";
 const Contact = () => {
   return (
+    <>
+
+  
     <div id="contact-us" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
@@ -26,40 +30,11 @@ const Contact = () => {
                     <MdCall size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Call Us</span>
+                    <span className="secondaryText">+2348025496458</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Call now</div>
-              </div>
-
-              <div className="flexColCenter mode">
-                <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
-                  </div>
-                  <div className="flexColStart detail">
-                    <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
-                  </div>
-                </div>
-                <div className="flexCenter button">Chat now</div>
-              </div>
-            </div>
-
-            {/* second row */}
-            <div className="flexStart row">
-              <div className="flexColCenter mode">
-                <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
-                  </div>
-                  <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
-                  </div>
-                </div>
-                <div className="flexCenter button">Video Call now</div>
+                <div className="flexCenter button">Call</div>
               </div>
 
               <div className="flexColCenter mode">
@@ -68,15 +43,22 @@ const Contact = () => {
                     <HiChatBubbleBottomCenter size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Send Us Email</span>
+                    <span className="secondaryText"></span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message now</div>
+                <div className="flexCenter button">Email now</div>
               </div>
+            </div>
+
+            {/* second row */}
+            <div className="flexStart row">
+
+    
             </div>
           </div>
         </div>
+        
 
         {/* right side */}
         <div className="flexEnd c-right">
@@ -86,6 +68,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <GetStarted/>
+    </>
   );
 };
 

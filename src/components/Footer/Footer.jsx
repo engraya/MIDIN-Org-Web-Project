@@ -26,7 +26,7 @@ const Footer = () => {
               <h3>{val.title}</h3>
               <ul>
                 {val.text.map((items) => (
-                  <li> {items.list} </li>
+                  <li> <a href="#">{items.list} </a></li>
                 ))}
               </ul>
             </div>

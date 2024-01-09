@@ -1,9 +1,9 @@
 import React from "react"
 import Heading from "../../common/Heading"
 import { awards } from "../../data/Data"
-import "./awards.css"
+import "./Achievements.css"
 
-const Awards = () => {
+const Achievements = () => {
   return (
     <>
       <section className='awards padding'>
@@ -27,4 +27,4 @@ const Awards = () => {
   )
 }
 
-export default Awards
+export default Achievements

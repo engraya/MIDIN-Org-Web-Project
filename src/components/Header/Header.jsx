@@ -2,18 +2,13 @@ import React, { useState } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
+import { Link } from "react-router-dom";
 // import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
 import logo from "../../images/logo.jpg"
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
-
 
   // const headerColor = useHeaderColor();
 
@@ -34,23 +29,14 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            {/* <a href="#residencies">Residencies</a>
-            <a href="#value">Our Value</a>
-            <a href="#contact-us">Contact Us</a>
-            <a href="#get-started">Get Started</a>
-            <a href="#get-started">Get Started</a>
-            <a href="#get-started">Get Started</a> */}
-
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Our Work</a>
-            <a href="#">Careers</a>
-            <a href="#">Projects</a>
-            <a href="#">What we do</a>
-
-
+            <Link to="/"><a >Home</a></Link>
+            <Link to="/about-us"><a >About Us</a></Link>
+            <Link to="/gallery"><a >Gallery</a></Link>
+            <Link to="/events"><a >Events</a></Link>
+            <Link to="/what-we-do"><a >What we Do</a></Link>
+            <Link to="/our-value"><a >Our Value</a></Link>
             <button className="button">
-              <a href="#">Contact</a>
+              <Link to="contact-us"><a >Contact Us</a></Link>
             </button>
           </div>
         </OutsideClickHandler>
