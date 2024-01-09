@@ -14,11 +14,10 @@ const Footer = () => {
               <img src={logo} alt='' />
               <h2>Do You Need Help With Anything?</h2>
               <p>Receive updates, Events, News sent straignt in your inbox</p>
+             
+              <p>OFFICE ADDRESS:Threshold Business Suite, Plot 976 Olusegun Obasanjo Way, Wuye Abuja FCT, Abuja Nigeria</p>
 
-              <div className='input flex'>
-                <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button>
-              </div>
+      
             </div>
           </div>
 

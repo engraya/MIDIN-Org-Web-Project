@@ -5,14 +5,13 @@ const GetStarted = () => {
     <div id="get-started" className="g-wrapper">
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
-          <span className="primaryText">Get started with Homyz</span>
+          <span className="primaryText">Get started with Our News & Updates</span>
           <span className="secondaryText">
-            Subscribe and find super attractive price quotes from us.
+            Subscribe and Explore more of our Activities and Events.
             <br />
-            Find your residence soon
           </span>
           <button className="button" href>
-            <a href="mailto:zainkeepscode@gmail.com">Get Started</a>
+            <a href="mailto:midin@gmail.com">Get Started</a>
           </button>
         </div>
       </div>

@@ -86,6 +86,10 @@
     width: 95%;
     height: 25rem;
   }
+  .video-container{
+    width: 95%;
+    height: 25rem;
+  }
   .stats{
     justify-content: center;
     gap: 1.5rem;

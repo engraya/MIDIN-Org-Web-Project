@@ -14,6 +14,7 @@ import {
 } from "react-icons/md";
 import data from "../../utils/accordion.jsx";
 import "./Value.css";
+import eventShot from "../../media/event-shot.mp4"
 // Demo styles, see 'Styles' section below for some notes on use.
 
 const Value = () => {
@@ -23,8 +24,10 @@ const Value = () => {
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">
-          <div className="image-container">
-            <img src="./value.png" alt="" />
+          <div className="container">
+          <video className="rounded-lg" controls>
+            <source src={eventShot} type="video/mp4" />
+         </video>
           </div>
         </div>
 
@@ -32,12 +35,11 @@ const Value = () => {
         <div className="flexColStart v-right">
           <span className="orangeText">Our Value</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="primaryText">Value We Provide to You</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+          Our mission embraces diversity and inclusivity, ensuring that every person, regardless of background, has an equal opportunity to thrive.
             <br />
-            We beleive a good blace to live can make your life better
           </span>
 
           <Accordion
@@ -84,3 +86,5 @@ const Value = () => {
 };
 
 export default Value;
+
+
