@@ -488,7 +488,7 @@ export const footer = [
   },
   {
     title: "",
-    text: [{ list: "Our Mission" }, { list: "Our Vision" }, { list: "News & Updates" }, { list: "Events" }, { list: "Projects" }],
+    text: [{ list: "Our Mission" }, { list: "Our Vision" }, { list: "News & Updates" }, { list: "What we Do" }, { list: "Projects" }],
   },
   {
     title: "",
