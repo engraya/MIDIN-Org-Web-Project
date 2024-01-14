@@ -6,8 +6,8 @@
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
 }
 .h-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   color: var(--secondary);
   justify-content: space-between;
 }
@@ -30,7 +30,7 @@
   .h-menu {
     color: var(--black);
     position: absolute;
-    gap: 0.7rem;
+    gap: 0.5rem;
     font-weight: 500;
     flex-direction: column;
     right: 2rem;
