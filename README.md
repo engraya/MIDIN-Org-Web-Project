@@ -1,3 +1,5 @@
+![Screenshot (1313)](https://github.com/engraya/MIDIN-Org-Web-Project/assets/115407251/4153f186-6c07-44eb-9480-27128d17a869)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
